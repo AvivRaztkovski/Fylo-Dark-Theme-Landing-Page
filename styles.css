@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --intro-and-email-sign-up-background-dark-blue: hsl(217, 28%, 15%);
+    
+}
+
+html {
+    font-size: 62.5%; /* 1rem == 10px*/
+}
