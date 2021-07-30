@@ -124,5 +124,44 @@ main{
 }
 
 .productive{
+    padding: 0 10rem 10rem;
     display: flex;
+    justify-content: space-between;
 }
+
+.prod__text-container {
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.prod__text {
+    padding-bottom: 2rem;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.prod__btn {
+    padding-bottom: .5rem;
+
+    border: none;
+    border-bottom: 2px solid var(--cta-gradiant-start-cyan);
+    background: none;
+
+    color: var(--cta-gradiant-start-cyan);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    transition: all;
+}
+
+.prod__btn:active {
+    color: var(--white);
+    border-bottom: 2px solid var(--white);
+}
+
